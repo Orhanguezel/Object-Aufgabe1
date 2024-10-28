@@ -5,6 +5,5 @@ const product = {
   price: 19.99,
 };
 
-const key=product.type;
-console.log(key);
-
+const keys = ["type", "color", "brand", "price"];
+console.log(product[keys[0]]);
